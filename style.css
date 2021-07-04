@@ -11,11 +11,9 @@ h1{
 p{
     font-size: 20px;
 }
-section{
+.flex-box{
     display: flex;
     margin-bottom: 120px;
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
 }
 .div-class{
     width: 50%;
@@ -37,9 +35,40 @@ section{
     font-weight: 700;
 
 }
-
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.experiance-background{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 .dream-goal{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.div-classnew{
+    width: 50%;
+    margin: 5%;
+    box-shadow: 10px 10px 60px black;
+    padding: 20px
+}
+#border-side2{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#border-side1{
+    border-left: 10px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+}
+.experiance-head{
+    margin-left: 50px;
+}
+footer p{
+    text-align: center;
+    font-size: 30px;
 }
